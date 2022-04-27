@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        Simbologias CSS
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = clildreen   (acessando o filho de uma div)
+        */
+
+        body{
+            background-color: whitesmoke;
+        }
+
+        a{
+            color: cornflowerblue;
+            text-decoration: none; /*retirando o sublinhado do link*/
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: aqua;
+        }
+
+        a:hover{
+            color: rgb(17, 0, 255);
+        }
+
+        .teste::before{
+            content: '→ ';
+        }
+
+        .teste::after{
+            content: ' ←';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <div>
+        <ul>
+            <li><a href="http://google.com.br" target="_blank">Respositorio GitHub</a></li>
+            <li><a href="http://www.google.com.br" target="_blank" class="teste">Canal do Youtube</a></li>
+            <li><a href="http://www.Youtuber.com.br" target="_blank" class="teste">Site do CursoemVideo</a></li>
+        </ul>
+    </div>
+</body>
+</html>

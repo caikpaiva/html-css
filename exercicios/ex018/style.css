@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*
+    # -> para id
+    . -> para class
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+body{
+    background-color: rgb(239, 242, 247);
+    font-family: 'Roboto', sans-serif; 
+}
+
+h1{
+    color: brown;
+}
+
+h1#principal{
+    color: darkblue;
+    text-align: center;
+}
+
+h2{
+    color: rgb(117, 41, 179);
+}
+ p{
+     font-weight: 100;
+ }
